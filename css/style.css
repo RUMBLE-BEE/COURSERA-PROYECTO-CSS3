@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+/* Skip Link */
+
+.skip-link{
+    position: absolute;
+    left: -999px;
+}
+
+.skip-link:focus{
+    left: 10px;
+    top: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+}
+
+/* Header */
+
+header{
+    background-color: #4a90e2;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Navigation */
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #357abd;
+    padding: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Hover */
+
+nav a:hover{
+    background-color: white;
+    color: #357abd;
+    transition: 0.3s;
+}
+
+/* Main */
+
+main{
+    padding: 20px;
+}
+
+/* Images */
+
+img{
+    width: 100%;
+    border: 4px solid #357abd;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+/* nth-child */
+
+.grid-gallery img:nth-child(odd){
+    border-radius: 30px;
+}
+
+.grid-gallery img:nth-child(even){
+    border-radius: 5px;
+}
+
+/* Grid */
+
+.grid-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Flex */
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    width: 300px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
