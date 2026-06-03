@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #fff7f3;
     color: #4b3832;
 }
@@ -62,6 +62,13 @@ nav a{
 nav a:hover{
     background-color: white;
     transition: 0.3s;
+}
+
+/*hero*/
+
+.hero img{
+    height: 400px;
+    object-fit: cover;
 }
 
 /* Main */
