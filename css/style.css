@@ -6,8 +6,8 @@
 
 body{
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #222;
+    background-color: #fff7f3;
+    color: #4b3832;
 }
 
 /* Skip Link */
@@ -20,7 +20,7 @@ body{
 .skip-link:focus{
     left: 10px;
     top: 10px;
-    background-color: black;
+    background-color: #4b3832;
     color: white;
     padding: 10px;
     z-index: 1000;
@@ -29,13 +29,13 @@ body{
 /* Header */
 
 header{
-    background-color: #4a90e2;
+    background-color: #ffc6c7;
     padding: 20px;
     text-align: center;
 }
 
 h1{
-    color: white;
+    color: #6d4c41;
     margin-bottom: 15px;
 }
 
@@ -45,22 +45,22 @@ nav{
     display: flex;
     justify-content: center;
     gap: 20px;
-    background-color: #357abd;
+    background-color: #ffb4a2;
     padding: 15px;
 }
 
 nav a{
-    color: white;
+    color: #4b3832;
     text-decoration: none;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 /* Hover */
 
 nav a:hover{
     background-color: white;
-    color: #357abd;
     transition: 0.3s;
 }
 
@@ -74,7 +74,7 @@ main{
 
 img{
     width: 100%;
-    border: 4px solid #357abd;
+    border: 4px solid #ffb4a2;
     padding: 5px;
     border-radius: 15px;
 }
@@ -110,14 +110,13 @@ img{
     width: 300px;
     background-color: white;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 /* Footer */
 
 footer{
-    background-color: #4a90e2;
-    color: white;
+    background-color: #ffc6c7;
     text-align: center;
     padding: 15px;
     margin-top: 20px;
