@@ -10,6 +10,12 @@ body{
     color: #4b3832;
 }
 
+/*hero*/
+
+.hero img{
+    width: 2000px;
+}
+
 /* Skip Link */
 
 .skip-link{
