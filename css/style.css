@@ -113,10 +113,14 @@ img{
 
 .card{
     width: 300px;
-    Height: 300px;
     background-color: white;
     padding: 15px;
     border-radius: 15px;
+}
+
+.card img{
+    width: 200px;
+    Height: 200px;
 }
 
 /* Footer */
