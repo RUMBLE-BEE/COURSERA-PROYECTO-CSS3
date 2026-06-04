@@ -39,6 +39,11 @@ h1{
     margin-bottom: 15px;
 }
 
+.hero img{
+    height: 400px;
+    object-fit: cover;
+}
+
 /* Navigation */
 
 nav{
@@ -62,14 +67,6 @@ nav a{
 nav a:hover{
     background-color: white;
     transition: 0.3s;
-}
-
-/*hero*/
-
-.hero img{
-    height: 400px;
-    object-fit: cover;
-    margin-bottom: 20px;
 }
 
 /* Main */
