@@ -82,6 +82,7 @@ img{
     border: 4px solid #ffb4a2;
     padding: 5px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 /* nth-child */
@@ -122,6 +123,7 @@ img{
     width: 200px;
     Height: 200px;
     object-fit: cover;
+    cursor: pointer;
 }
 
 /* Footer */
